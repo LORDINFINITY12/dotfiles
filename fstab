@@ -1,0 +1,42 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Tue Nov 21 09:13:50 2023
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+UUID=dd552066-1b42-4a88-b16b-aeb7574d95da /                       btrfs   subvol=root,compress=zstd:1 0 0
+UUID=787f506d-eb58-4791-bf31-d7af3ef84dbf /boot                   ext4    defaults        1 2
+UUID=AAA2-C421          /boot/efi               vfat    umask=0077,shortname=winnt 0 2
+UUID=dd552066-1b42-4a88-b16b-aeb7574d95da /home                   btrfs   subvol=home,compress=zstd:1 0 0
+
+# MassStorage (/dev/sdc2)
+UUID=DE2D-D85E                              /mount/drive1    exfat  uid=1000,gid=1000,umask=022,noatime  0 0
+
+# MassStorag2 (/dev/sdb1)
+UUID=2C36-7A0B                              /mount/drive2   exfat   uid=1000,gid=1000,umask=022,noatime  0 2
+
+# ExtMassMedia (/dev/sde1)
+UUID=3AF9-9C99                              /mount/drive3   exfat   uid=1000,gid=1000,umask=022,noatime  0 2
+
+# Steam (/dev/sda1)
+#UUID=8b739b94-246c-4951-8f6c-1369f0fd2448	/home/infinity/ssd1   ext4    defaults,uid=1000,gid=1000,rw,user,exec,umask=000 0 1
+UUID=5da81eb0-5a37-49f0-a3b5-936f12655fbc   /mount/drive4   ext4    defaults,noatime,users,exec  0 2
+
+# TempExt (/dev/sdg1)
+UUID=81E1-7CA1				    /mount/drive5   exfat   uid=1000,gid=1000,umask=022,noatime  0 2
+
+# TempExt2 (/dev/sdf1)
+UUID=CEC0-0DE0 				    /mount/drive6   exfat   uid=1000,gid=1000,umask=022,noatime  0 2
+
+# NVMe1 (/dev/nvme0n1)
+UUID=906678a1-ba62-4a0a-b90c-ce8ca728a6e4   /mount/nvme1     ext4    defaults,noatime,users,exec  0 2
+
+# NVMe2 (/dev/nvme0n1)
+UUID=212310ac-3e4c-4b70-a370-76b359be8395   /mount/nvme2     ext4    defaults,noatime,users,exec  0 2
+
+
