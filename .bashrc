@@ -9,6 +9,7 @@ alias cmatrix='cmatrix | lolcat'
 alias cava='cava | lolcat'
 alias update='sudo pacman -Syu --noconfirm; yay -Syu --noconfirm; flatpak update -y'
 alias vi='vim'
+alias ls='lsd'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
