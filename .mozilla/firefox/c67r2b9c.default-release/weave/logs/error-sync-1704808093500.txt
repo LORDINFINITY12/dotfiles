@@ -1,0 +1,21 @@
+1704808055751	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1704808085495	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1704808085495	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1704808085497	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1704808085497	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808086338	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1704808086339	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1704808086339	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1704808086339	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808088340	Sync.Service	DEBUG	User-Agent: Firefox/121.0 (Linux x86_64) FxSync/1.123.0.20231220010123.desktop
+1704808088340	Sync.Service	INFO	Starting sync at 2024-01-09 19:18:08 in browser session ICM-drejjNK7
+1704808088340	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1704808088341	Sync.Status	INFO	Resetting Status.
+1704808088341	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1704808088341	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704808090422	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808091465	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808093498	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1704808093499	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1704808093499	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1704808093500	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

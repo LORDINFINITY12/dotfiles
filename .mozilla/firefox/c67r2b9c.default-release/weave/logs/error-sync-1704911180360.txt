@@ -1,0 +1,693 @@
+1704911167951	Sync.Status	INFO	Resetting Status.
+1704911167951	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1704911167951	FirefoxAccounts	TRACE	initializing new storage manager
+1704911167951	FirefoxAccounts	TRACE	starting fetch of json user data
+1704911167951	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1704911167951	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1704911167952	Sync.Service	INFO	Loading Weave 1.123.0
+1704911167952	Sync.Engine.Clients	DEBUG	Engine constructed
+1704911167952	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1704911167953	Sync.Engine.Addons	DEBUG	Engine constructed
+1704911167955	FirefoxAccounts	TRACE	finished fetch of json user data - took: 4
+1704911167955	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1704911167955	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1704911167956	FirefoxAccounts	DEBUG	secure read fetched items: ["scopedKeys"]
+1704911167956	FirefoxAccounts	TRACE	initializing of new storage manager done
+1704911167957	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1704911167960	Sync.Engine.Passwords	DEBUG	Engine constructed
+1704911167971	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1704911167971	Sync.Engine.Prefs	DEBUG	Engine constructed
+1704911167974	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1704911167974	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1704911167975	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1704911167975	Sync.Engine.Forms	DEBUG	Engine constructed
+1704911167976	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1704911167977	Sync.Engine.History	DEBUG	Engine constructed
+1704911167977	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1704911167978	Sync.Engine.Tabs	DEBUG	Engine constructed
+1704911168197	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1704911168200	Sync.Engine.Tabs	INFO	Got a bridged engine!
+1704911168200	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1704911168205	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1704911168206	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1704911168242	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1704911168242	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+1704911168243	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1704911168243	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1704911168243	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1704911168259	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Initialized
+1704911168259	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1704911168259	FirefoxAccounts	DEBUG	getOAuthToken enter
+1704911168260	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1704911168260	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1704911168260	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1704911168310	Sync.Service	DEBUG	User-Agent: Firefox/121.0.1 (Linux x86_64) FxSync/1.123.0.20240109145044.desktop
+1704911168310	Sync.Service	INFO	Starting sync at 2024-01-10 23:56:08 in browser session AMUIgkkYFK7J
+1704911168310	Sync.Service	DEBUG	In sync: should login.
+1704911168310	Sync.Service	INFO	User logged in successfully - verifying login.
+1704911168310	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1704911168310	Sync.Status	DEBUG	Status.login: success.login => success.status_ok
+1704911168310	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1704911168310	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1704911168311	Sync.SyncAuthManager	INFO	Getting sync key
+1704911168311	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1704911168311	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1704911168311	FirefoxAccounts	DEBUG	getOAuthToken enter
+1704911168311	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1704911168311	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1704911168311	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1704911168311	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1704911168446	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com
+1704911168582	FirefoxAccounts	INFO	fetching updated device list
+1704911168594	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1703096768583
+1704911172628	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1704911172628	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1704911172628	Services.Common.TokenServerClient	DEBUG	Successful token response
+1704911172628	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1704911172628	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1704911172628	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1704911172628	Sync.SyncAuthManager	DEBUG	_findCluster returning https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/
+1704911172628	Sync.SyncAuthManager	DEBUG	Cluster value = https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/
+1704911172629	Sync.SyncAuthManager	DEBUG	Setting cluster to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/
+1704911172629	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/
+1704911172630	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1704911172656	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1704911172781	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1703096768583 200
+1704911172781	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1703096768583: code: 200 - Status text: 
+1704911172781	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -781
+1704911172781	FirefoxAccounts	INFO	Got new device list: 1faa275e70cbf44faa3c250172ff5bfd, 239c80e9c1b20c6b1e98abeadde5e1cd, 2db7e48b6d14ff92f95f71eedc05ad2e, 853f94282eff005cd7f94a589317052d, a18d66ea1152bd471feef3365ea4e31b, d93761d31c519ee84b347b8d6fc6bdd3
+1704911172781	FirefoxAccounts	DEBUG	FxAccountsPush loading service
+1704911172781	FirefoxAccounts	DEBUG	FxAccountsPush initialized
+1704911172782	FirefoxAccounts	TRACE	Our push subscription looks OK
+1704911172782	FirefoxAccounts	INFO	updating the cache
+1704911172936	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/collections
+1704911172936	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/configuration
+1704911172936	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911173180	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/configuration
+1704911173180	Sync.Service	DEBUG	Fetching global metadata record
+1704911173181	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911173486	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/meta/global
+1704911173486	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1614950872.69
+1704911173486	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911173757	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/meta/global
+1704911173757	Sync.Service	DEBUG	Weave Version: 1.123.0 Local Storage: 5 Remote Storage: 5
+1704911173757	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1704911173757	Sync.Service	INFO	Testing info/collections: {"addons":1704911149.37,"crypto":1608309846.51,"passwords":1689433377.13,"prefs":1704911148.42,"bookmarks":1704911058.04,"extension-storage":1704910693.35,"meta":1614950872.69,"clients":1704911148.03,"forms":1704911157.21,"history":1704911131.18,"tabs":1704911148.74}
+1704911173757	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1704911173757	Sync.Service	INFO	collection keys reports that a key update is needed.
+1704911173758	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911174024	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/crypto/keys
+1704911174024	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1704911174025	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1608309846.51.
+1704911174025	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1704911174025	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1704911174025	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1704911174025	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1704911174025	Sync.CollectionKeyManager	INFO	Bumping last modified to 1608309846.51
+1704911174025	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1704911174025	Sync.Status	DEBUG	Status.login: success.login => success.login
+1704911174025	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1704911174025	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/
+1704911174025	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1704911174026	Sync.Status	INFO	Resetting Status.
+1704911174026	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1704911174026	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911174283	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/collections
+1704911174283	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/configuration
+1704911174283	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911174529	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/configuration
+1704911174529	Sync.Service	DEBUG	Fetching global metadata record
+1704911174529	Sync.Service	DEBUG	Weave Version: 1.123.0 Local Storage: 5 Remote Storage: 5
+1704911174530	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1704911174530	Sync.Service	INFO	Testing info/collections: {"meta":1614950872.69,"passwords":1689433377.13,"bookmarks":1704911058.04,"addons":1704911149.37,"prefs":1704911148.42,"forms":1704911157.21,"tabs":1704911148.74,"history":1704911131.18,"clients":1704911148.03,"crypto":1608309846.51,"extension-storage":1704910693.35}
+1704911174530	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1608309846.51
+1704911174530	Sync.Synchronizer	DEBUG	Refreshing client list.
+1704911174530	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1704911174530	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1704911174530	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911174808	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/clients?full=1&limit=1000
+1704911174821	Sync.Engine.Clients	INFO	Records: 21 applied, 21 successfully, 0 failed to apply, 0 newly failed to apply, 1 reconciled.
+1704911174821	FirefoxAccounts	INFO	Device list cache is fresh, re-using it
+1704911174821	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client 239c80e9c1b20c6b1e98abeadde5e1cd with age 1137791.1700000763
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client _kwYuKF2aDFs - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client mASmOYMMoeyy - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client mASmOYMMoeyy with age 2928681.9300000668
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client P7M4gB-9yDUZ - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client P7M4gB-9yDUZ with age 2935966.75
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client iKnsV7zdG401 - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client iKnsV7zdG401 with age 3690475.75
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client zGk5Gperdt6y - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client zGk5Gperdt6y with age 3698509.810000181
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client UBJF_8It5Uy4 - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client R5m2N06TJJg- - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client R5m2N06TJJg- with age 4394166.24000001
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client aFl5gjpG8ZHf - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client aFl5gjpG8ZHf with age 4527724.320000172
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client ItcJQR8uUsdw - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client ItcJQR8uUsdw with age 5128709.570000172
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client Dhjdu45p3_PI - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client Dhjdu45p3_PI with age 5285605
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client ZkqdRMGjkXt4 - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client ZkqdRMGjkXt4 with age 5290834.480000019
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client WDSIh3vt9yPV - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client WDSIh3vt9yPV with age 5309710.0400002
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client D91b7LWXqBOJ - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client uDP6OvF7S_Vh - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client uDP6OvF7S_Vh with age 6937998.060000181
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client cFzzzmCGYAQZ - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client cFzzzmCGYAQZ with age 8158833.3600001335
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client aNlcUT_MYCAm - in known stale clients list
+1704911174821	Sync.Engine.Clients	INFO	Hiding stale client aNlcUT_MYCAm with age 15480950.330000162
+1704911174823	Sync.Engine.Clients	INFO	Uploading 1 outgoing records
+1704911174824	Sync.Engine.Clients	INFO	Posting 1 records of 550 bytes with batch=true
+1704911174824	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911174824	Sync.Collection	DEBUG	POST Length: 550
+1704911175106	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/clients?batch=true&commit=true
+1704911175107	Sync.SyncScheduler	DEBUG	Client count: 0 -> 5
+1704911175107	Sync.Synchronizer	INFO	Updating enabled engines: 5 clients.
+1704911175107	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1704911175108	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911175413	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/prefs?newer=1704910790.75&full=1&limit=1000
+1704911175417	Sync.Engine.Prefs	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1704911175417	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1704911175428	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1704911175428	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1704911175443	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911175705	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/tabs?newer=1704910868.16&full=1&limit=1000
+1704911175711	Sync.Engine.Tabs	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1704911175712	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1704911175713	Sync.Engine.Tabs	INFO	Posting 1 records of 9003 bytes with batch=true
+1704911175713	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911175713	Sync.Collection	DEBUG	POST Length: 9003
+1704911176011	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/tabs?batch=true&commit=true
+1704911176015	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID nOtzuB2aBXzI matches existing
+1704911176028	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911176311	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/bookmarks?newer=1704825257.24&full=1&sort=oldest&limit=1000
+1704911176329	Sync.Engine.Bookmarks	INFO	Records: 10 applied, 10 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1704911176329	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1704911176344	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 15.140ms
+1704911176344	Sync.Engine.Bookmarks.Mirror	DEBUG	Notifying Places observers
+1704911176344	Sync.Engine.Bookmarks.Mirror	DEBUG	Building local tree
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Building remote tree
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Building merged tree
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying merged tree
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Updating local items in Places
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Cleaning up observer notifications left from last sync
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting Places for new items
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging apply remote item ops
+1704911176345	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging change GUID ops
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging apply new local structure ops
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing tombstones for revived items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting new tombstones for non-syncable and invalid items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing local items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Changing GUIDs
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying remote items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Recording item added notifications for new items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Recording item changed notifications for existing items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing old keywords
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing old tags
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Upserting new items
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Flagging frecencies for recalculation
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting new keywords for new URLs
+1704911176346	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting new tags for new URLs
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying new local structure
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Resetting change counters for items that shouldn't be uploaded
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Bumping change counters for items that should be uploaded
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Flagging applied remote items as merged
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging items to upload
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Cleaning up staged items left from last sync
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging items with older local dates added
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging remaining locally changed items for upload
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging structure to upload
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging tags to upload
+1704911176347	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging tombstones to upload
+1704911176350	Sync.Engine.Bookmarks.Mirror	DEBUG	Notifying Places observers took 5.542ms
+1704911176350	Sync.Engine.Bookmarks.Mirror	DEBUG	Fetching records for local items to upload
+1704911176351	Sync.Engine.Bookmarks.Mirror	DEBUG	Fetching records for local items to upload took 1.112ms
+1704911176351	Sync.Engine.Bookmarks	INFO	Uploading 6 outgoing records
+1704911176356	Sync.Engine.Bookmarks	INFO	Posting 6 records of 3281 bytes with batch=true
+1704911176356	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911176356	Sync.Collection	DEBUG	POST Length: 3281
+1704911176667	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/bookmarks?batch=true&commit=true
+1704911176679	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":6,"skipped":0,"updated":0}
+1704911176679	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1704911176679	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon iCloud Bookmarks (version=2.3.40, id=firefoxdav@icloud.com)
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Honey (version=12.8.4, id=jid1-93CWPmRbVPjRQA@jetpack)
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Abyss Yellow (version=2.0, id={adc5e39e-0f46-4326-a1c3-32681e673e00})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon  Black Yellow Solid  (version=2.0, id={c5e77a39-089f-436d-9bef-13985981742e})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Blue (version=1.0, id={a3a7e00d-e241-4ad7-9223-5b0d024adfd4})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Ark-Linux (version=1.0, id={e2af7dc9-a56b-4397-9687-158f54c195f2})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Matte Black (Pop!_OS Orange Dark Mode) (version=1.2, id={553517d9-9678-4510-afa3-b5ccbebe2779})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Arch Linux AUR Search (version=2.0, id={44f82896-ab89-45b2-8c8d-e5b42ba29203})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Warm Magenta Dark (version=1.0, id={09518f3f-9a7f-45c8-9919-a62d99b38a8a})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Black Arch_Linux Theme (version=1.0, id={499b35f5-3d3c-40e8-bb22-e5b8b22c619f})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Matte Black (Blue) (version=2022.2.23, id={c01b4916-eb9f-403d-9931-9d7cb152c729})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon HLS Downloader (version=3.2.1, id={e3ec0551-9bfa-4233-b9dd-6b36f6a80962})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Purple Night (version=1.0, id={4634d9ed-e1f8-4a04-81ee-9425b66e1642})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon ClearURLs (version=1.26.1, id={74145f27-f039-47ce-a470-a662b129930a})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon orange (version=1.0, id={47d1eae8-a4e6-4de0-8488-2a81e1bc8bdb})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Matte Black (Pop!_OS Orange Light Mode) (version=1.0, id={7b451447-9662-4b6a-8ccd-8945e3adc064})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Matte Black (Orange) (version=2022.2.23, id={e7c9fb23-17c0-4bb6-a8ba-ff52a7770b89})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon GNOME Shell integration (version=11.1, id=chrome-gnome-shell@gnome.org)
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark theme for Firefox (version=1.0.2.0, id={1afaee19-8dde-4b0e-8c84-f46ca0f02f06})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Graffiti – Balanced (version=2.1, id=graffiti-balanced-colorway@mozilla.org)
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Ram Re: Zero WAIFU (version=1.0, id={87dd3e28-e2c7-46bb-8a80-4d73ea8afe28})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Blue (version=1.0, id={a88645ab-5430-462d-9785-77ccf2329742})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon SimpleArchLinuxBlue (version=1.0, id={9e1a3b2f-c867-4bd6-90d4-32af2dbe349b})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Indigo-Cyan-Blue (version=1.0, id={10eefbd1-2049-48b9-8916-dc8b76a739db})
+1704911176680	Sync.AddonsReconciler	DEBUG	Rectifying state for addon To Google Translate (version=4.2.0, id=jid1-93WyvpgvxzGATw@jetpack)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Tree Style Tab (version=3.9.19, id=treestyletab@piro.sakura.ne.jp)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Pop! Dark + Orange Highlights (version=2.0, id={9c8f637d-2e0d-4b45-8a37-0a6dae9106f2})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon colee (version=1.0, id={d1cc7cf8-8f1b-419a-9ac7-5f709d61ea45})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Plasma Integration (version=1.8.1, id=plasma-browser-integration@kde.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon CMYK-Magenta (version=1.0, id={ab826a41-6e0a-4e8a-aaa0-2e8b72af43a1})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Neon Cyan & Magenta  (version=1.0, id={72debdf6-7bd4-4ce0-93d0-e9e607dad2ab})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Magenta Blue Gradient (version=1.0, id={ceb5b4cf-6a2a-4740-ba88-d8e0167e7af7})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Cyberpunk-Neon (version=2.0, id={2f6ef4d6-4ab5-43a7-a4b8-d0019acfb811})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Cyberpunk 2077 (version=1.0, id={0e6ef3d5-29d4-46e8-a80e-dd943c0da4d0})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Cyberpunk (version=2.0, id={07320f82-47a9-486f-b381-84605d34e4dd})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Cyberpunk (version=1.0, id={1356bc0f-ba80-4619-a0ab-f98a326f931a})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DuckDuckGo Privacy Essentials (version=2023.12.6, id=jid1-ZAdIEUB7XOzOJw@jetpack)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Return YouTube Dislike (version=3.0.0.14, id={762f9885-5a13-4abd-9c77-433dcd38b8fd})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Search by Image (version=6.1.1, id={2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon night (version=1.0, id={86789596-7be1-40fd-be0f-32acfbfe342d})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon plum torte (version=1.1, id={3ff233e1-75f4-4316-9af6-c14b800c6215})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Unpaywall (version=3.98, id={f209234a-76f0-4735-9920-eb62507a54cd})
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.55.0, id=uBlock0@raymondhill.net)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Screenshots (version=39.0.1, id=screenshots@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon WebCompat Reporter (version=2.0.0, id=webcompat-reporter@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=121.0.0, id=webcompat@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.3, id=default-theme@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=2.0.0, id=addons-search-detection@mozilla.com)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Google (version=1.4, id=google@search.mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Wikipedia (en) (version=1.3, id=wikipedia@search.mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Bing (version=1.6, id=bing@search.mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon DuckDuckGo (version=1.4, id=ddg@search.mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.2, id=firefox-compact-light@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.2, id=firefox-compact-dark@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.4, id=firefox-alpenglow@mozilla.org)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.3.2, id=gmp-gmpopenh264)
+1704911176681	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=4.10.2710.0, id=gmp-widevinecdm)
+1704911176682	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1704911176683	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911176983	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/addons?newer=1704910634.23&full=1&limit=1000
+1704911177014	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 43 reconciled.
+1704911177014	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1704911177015	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911177321	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/forms?newer=1704910789.26&full=1&limit=1000
+1704911177324	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704911177673	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/storage/forms?newer=1704910789.26&full=1&limit=1000&offset=1000
+1704911177681	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: jUT3WRv9TM63NYh7 -> +6nqrK1QQKWrfdxl
+1704911177685	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177688	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: yIYR9R3yTgmwq6Jq -> +AcORA/VQxmFQyg8
+1704911177693	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177694	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ebXsUYaxR9aGrQn2 -> +AfBw3TYSK6lCb59
+1704911177700	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177702	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 91vWvHz7QdCDOwIu -> +Dn9HGwJTtCKtJZV
+1704911177706	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177708	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: AVZmDXTcSe20Vt26 -> +DvJeJxnRMGMFWzA
+1704911177712	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177714	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: fQ1ZLv/5Rfe5Z+Kc -> +Dw/9M0yTeSB9I/f
+1704911177718	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177719	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: IEJXrrYcRD6kdeIl -> +Dxp6e8vSdi0AnJD
+1704911177723	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177726	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: /YVD1UOhSlWvmACz -> +EE2GFOuSPS+3/8j
+1704911177730	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177733	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: K1w1y9ykTaWQG5D7 -> +FZv2zzWR7+AtxKp
+1704911177737	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177740	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: sTLWjNs2R+KZnWfU -> +Kips+VQS8SRrkJ8
+1704911177743	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177747	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 0tAEUv7zSN2xGV8b -> +P7JniHsR2+9KeED
+1704911177750	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177753	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: FSYivbFUTvKcHdA1 -> +PeTLh0WSoG6kvLx
+1704911177757	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177760	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 4O4eWFwySHqJz+K2 -> +QPjxdixQZ2Oh+zs
+1704911177763	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177766	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: AVrfmzxJRsWwnziS -> +RN7DXhEQhirzhzJ
+1704911177770	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177773	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: xTVBkNbJR9GR5KO4 -> +UBD0kyaTH6K2fD8
+1704911177777	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177781	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: xDYU+pRkS3+zEy0E -> +YVo9yQJSCyfKjmL
+1704911177785	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177788	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: XCJx9VvPTKqGpvYw -> +Z2/xUpYSSGmpTFM
+1704911177792	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177794	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 8vlt/Q0ESVC9daOu -> +ZaNV5WFSxKz68Ri
+1704911177798	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177801	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: zJ/oEhrcR0OSucLf -> +g3EUOVkT/+ZYHaA
+1704911177804	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177806	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: oItYsJQ7SBiGI5Dk -> +kKgtaJyROqXKn1C
+1704911177811	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177813	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: u1OSI5ZXSnCWi6Iv -> +nCRfLKPR1yGSaIq
+1704911177817	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177818	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 9hBPy3DaT9OMUi1Z -> +nsX9ee9RDGftowh
+1704911177822	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177823	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 9eZKYqPoS8uKByEC -> +nvMczvOQG20VJeh
+1704911177827	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177830	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: YeC/NIYRQFej3cP5 -> +yr/3gSRRFO/bl82
+1704911177833	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177836	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: BVbCMiXYRGK4hRnl -> /+4SlqC8TY+Bbrri
+1704911177840	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177841	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ozHN0nG2TY+y3hts -> //9LFgISTj6h0A9s
+1704911177846	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177847	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ebwBvPjGQ+eSc6Eo -> //Bfmt+oSdOMrN0r
+1704911177853	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911177855	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 4gcGx8O8Qpu0eQ9e -> /1SoDa2ETMmuibN1
+1704911178069	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178125	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 8Y0K9HrQRgWY+JbX -> /51Y/IqXQA6FQUwA
+1704911178237	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178506	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: HbfSCLawRwSOE28O -> /9s+gdKJSO+MZy/f
+1704911178513	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178522	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 74yDlj4RSxuBGDL3 -> /AP6JmY1T9+rm3cI
+1704911178534	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178536	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: l0mPpHkHQ9G4H0ew -> /FSZXrKETpaDwDGa
+1704911178549	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178556	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: +lJkd2IfRpOy1HuX -> /FsESWrATlajdQJa
+1704911178562	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178564	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Q+EuWhRxS4W6orSs -> /I3MP1RHQiymAzjS
+1704911178575	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178578	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: vaGmAKHqT1u5n2j6 -> /IicbDbxTcWQV3X3
+1704911178585	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178592	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: oBGI4OEeR/SLxrUx -> /L5T3SgyTs2DvSzk
+1704911178603	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178610	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: M0/FZjxxTbi5PiT5 -> /Ps1K97+QmWTc1es
+1704911178618	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178626	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: J6Twn0N0QbCxsn2F -> /ULCGduOSueZp7cn
+1704911178633	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178640	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: LbeJPhGpQg+a1qdw -> /YAFjKGBTHuJwdl+
+1704911178647	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178661	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: y3HpXiZORLmYQdDj -> /ZlOFbNpTmapBA+x
+1704911178673	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178681	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ED2cwFJiT3SEXSFd -> /bAAL85OSimmBUig
+1704911178685	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178687	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: F3CYCLIwQjWyuvT0 -> /c57QLtNTJ+AsLS4
+1704911178690	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178693	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: YGMwZ2i9TY6f1WxW -> /f4+WuI9SXqdodNg
+1704911178697	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178699	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: kLHVmJGcRFexazH0 -> /hO72ZWZQ7udH1+x
+1704911178703	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178705	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: oBaALXy5T7+wXteY -> /iuOEhL0RtmvBZ7h
+1704911178709	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178711	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Csm8UAxSQuKfyw4r -> /k9GCSmQTQWoimrC
+1704911178715	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178717	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: seO7tdJzTWWJ5Vn/ -> /pPZuCIDREmJhPAk
+1704911178720	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178722	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: VOflHWuATquSxeIJ -> /wNdTM/kTkGvnmLU
+1704911178725	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178727	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: WE5mrjhURPKqYKUn -> /wQfyTkxS1OiyeRL
+1704911178731	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178734	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: /3qOyM7rQsit8j4i -> /wbDon/ERAyZ9xG1
+1704911178738	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178740	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Rg656NTzTGCgr5MS -> 0/mRC+CEQea8ftEy
+1704911178744	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178746	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ySwX7KtjQ+eFDnAA -> 0/nHjJa6QeOfgl1b
+1704911178749	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178750	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: hfAsX+jtSsuwt2pa -> 04KamBwdQFmOpPPE
+1704911178753	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178755	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 5A6ooxqmQxSTsFAx -> 04XrU3cwRnqjLPG1
+1704911178759	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178761	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: FWCy7BuHRZaog5w+ -> 07O+8rY6STOt4kd5
+1704911178764	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178766	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 4CykAzLTTnacTuzq -> 09iIdEyoTxqUW3km
+1704911178770	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178772	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: rSj4YJHEReGrj2xV -> 0Boo97frT1GK8woD
+1704911178776	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178778	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: metgXjvRTHypinqA -> 0ENq4roZQGKW55jY
+1704911178782	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178785	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: KdXRErmrT9SChzbO -> 0Hab3jvjQNGoN/0F
+1704911178789	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178791	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: h13x7N08Qg+I7t/8 -> 0LbrifPlTtaG439q
+1704911178795	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178797	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ehQ3cPrPT3m2bFmJ -> 0NTYFbxUSOWIkncF
+1704911178801	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178803	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: w0wFviakSQC+WnOx -> 0PkCDMImTOyJn/PP
+1704911178807	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178810	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: /8cK3NqhS2y+kH5k -> 0Ti6Te8STkGFFYNg
+1704911178813	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178816	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 656ISE90TAeMvGB3 -> 0UACAL8ZQHa/nInx
+1704911178820	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178823	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: zb4+jqLyRReCNRmB -> 0VNDqdb1SwKCju2X
+1704911178826	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178828	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 7XjyB/MuReeVHERS -> 0Wgr+M2fRsCnAsjt
+1704911178832	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178834	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: BKj6wdg4Seegugjj -> 0Y4hyxz/RCWKs/s1
+1704911178837	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178839	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: BjtSUsgRSwm+hubV -> 0cOBcfoPTNKq2N4l
+1704911178843	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178845	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: nd9rqnItTKORYfHM -> 0erpVvZiRi2cs16f
+1704911178849	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178851	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: snIAxSgCSUKXqJtC -> 0g88EJANToiI1GPD
+1704911178855	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178857	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: jN6fE56HT8CXlEb1 -> 0ibIsS4zRtmkaXKy
+1704911178862	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178864	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 6PjZJVcAQe+qFx4n -> 0n1KvQ+lS3i3FzBS
+1704911178868	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178870	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: C9YdjHe7QjWXW0Je -> 0odD+71IQr+7kKhB
+1704911178873	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178875	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 4F/So86SQrqdkatS -> 0tAG1rykSHW8QTJZ
+1704911178878	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178880	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: a4EueCZrQGKUPuE5 -> 0tV212zuTv+yLMsc
+1704911178884	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178885	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: sE0yFjfkTSebv2+r -> 0tmAHuvaT4iOXkSR
+1704911178889	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178891	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: zsKbl8MdS+SDBk95 -> 0unvpUUBRnKT2LyB
+1704911178895	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178896	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: O/u0vPGkQ2+unnRy -> 0zPAo19LRNC3K9mq
+1704911178900	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178901	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: kNYnmwWrQ9y1X5SN -> 13DPt08YQ56GaKpJ
+1704911178904	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178906	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 1R+pXkf7SfWvXYzw -> 18AmrOs7S72EGnPQ
+1704911178910	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178912	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: fyqyG7S5SZ+2HXB0 -> 1CSri7zWR1SJr0zQ
+1704911178915	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178917	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 1oj569JVRgW14ZUI -> 1EmpeT/oQAWBPRUx
+1704911178920	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178922	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: +3TJHEHaRt+UlCFy -> 1HRkzP4eTtOqM+u9
+1704911178927	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178928	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Kr6Dp9E+S+euHv3v -> 1MRXpchOS7C8vjjL
+1704911178931	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178933	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 86RIR3HdTLm2Fx3+ -> 1NbXvnSxTPSuQF07
+1704911178936	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178938	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: pxkIPonZRDGMbr5H -> 1NuddbYbTFScW6Du
+1704911178941	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178943	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: O/7puqXGTKK1Yzhn -> 1UYvKPcaQGqnhTUX
+1704911178946	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178948	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 3xs1ZJ6RSny66Mp5 -> 1chpEay5QY6a0Aw4
+1704911178951	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178953	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: PXQRuxPKQ6+z8HcD -> 1jVB7rsZT5WhQ48E
+1704911178957	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178958	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: iSYVvBjKQ/q1IK+K -> 1oCILa+cT7acrbjv
+1704911178963	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178965	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: prM0JAynR66N7U0F -> 1rjxp3OGS7SMeVzf
+1704911178968	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178970	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Pw86QDhmRfesLunY -> 1tEiaYgJQdyvLmkQ
+1704911178973	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178975	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: jGgcjktVRi+sR6Uq -> 1xbctNMTSmKu1NbJ
+1704911178978	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178980	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: pb5BiaaPRhWxM39/ -> 1y2fPzOiRPeXt8PC
+1704911178984	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178985	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: G7N+kskzQk2+67hf -> 22jlEE8gQUaMU6at
+1704911178989	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178990	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: KWmENJEwRvOiXktD -> 28f8z5GRTvW1TzXf
+1704911178994	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911178996	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: MQXZ0VEvS7u+sZ26 -> 2BoKWSxuQEqtT+Ju
+1704911178999	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179001	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: i3JC/vMrQiaexLP3 -> 2EypWUINS8+a3xjM
+1704911179004	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179006	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: pXMtZF12QX+j8Thh -> 2FSQqfwBQxazKSCm
+1704911179009	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179011	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: hXImdRspQ7ChUmXP -> 2Gv5cDLdSrmORdJm
+1704911179015	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179016	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: uPd9ruR1R8GUYacU -> 2Lg+ra5BRxCDMi9X
+1704911179020	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179021	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: B1QuCNZzS2SxR4R8 -> 2O48FveFQdqZQ3CN
+1704911179025	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179026	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: eZHYPbq8TtCSqI+t -> 2O5yH5UkRHGbZVvq
+1704911179030	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179031	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Z6S9OwWTR6KUXyI1 -> 2WEIx7lbQ2aBIgGy
+1704911179035	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179038	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: qkxRCJrJQaGsim/5 -> 2Z4rOTAVTk6R1hUj
+1704911179042	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179043	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 99lRGruuQdOi0FyS -> 2ZSMQ11AQFCdDimu
+1704911179047	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179048	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: z6hGe5ybRQ+G5vGZ -> 2bB6v5vERvCt5KWI
+1704911179051	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179052	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: R++dVu/WQtyxJejb -> 2by7CPZtSfOFYzFe
+1704911179056	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179057	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 5TNDope4SGC8BrJe -> 2dpuMdftQkmus177
+1704911179061	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179062	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: gxxLQI5aRQWqnVvv -> 2hExlDCbTW6QSCAI
+1704911179065	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179067	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: nyhq6/FJTq+lnk62 -> 2j1OIJ1GQgavTXyH
+1704911179070	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179072	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: 4vLGu3MHSkeilQdB -> 2jidrkeNSQa8oE1N
+1704911179075	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179076	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: ju9oW/UrQVexo1hw -> 2jwmbLmmSZGJcc2v
+1704911179080	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179082	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: fVQetPFET5Kjy4sc -> 2ohU4qpVQ0Sfx3kp
+1704911179085	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179086	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: GMGVZo5NR/acEFan -> 2r06PAA0SM6lySbx
+1704911179090	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179091	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: Mc45ORXvRYK0pc2g -> 2v5cVu/BQKO0DQHD
+1704911179112	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179281	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: zEMktT6JRPS2LPtC -> 2vk4/O/gR1CmKjQS
+1704911179302	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179305	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: QCTkklVbR6GOEeQQ -> 2xcx4yc8SFGN7cVK
+1704911179306	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1704911179315	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179317	Sync.Engine.Forms	DEBUG	Switching local ID to incoming: phARfGemTc+3Zo2/ -> 32Rmb7atRdCxwbne
+1704911179325	Sync.Engine.Forms	DEBUG	Local item after duplication: age=null; modified=false; exists=true
+1704911179334	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 32eYSnTRS6iW+HFq: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180350	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 33vl+FrAQ0epqfnx: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180351	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 34GN/j7GReO4s/Go: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180351	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 35GFuvITTuufxyEz: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180351	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3BLSjM04TNGofpGI: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180352	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3GYJGntCQUikOwXs: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180352	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3LDjU8PZS4exVT6s: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180352	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3M642HA7Q7Ga83NI: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180352	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3MWhAoFJSPKdCrPA: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180353	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3NhGSvlAQqa/06nG: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180353	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3VSK7bRKQSKYvsOb: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180353	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3XeMpXnEQ6OqF3vX: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180354	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3aGb3SDwSfqtw4M6: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180354	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3d3cR7xyTt+arksv: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180354	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3df+AUbYSQ2OBnjo: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180354	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3jyyTS89R02yxnJD: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180355	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3n39dmEmTXOK1clY: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180355	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3szSIGv/SmSg0UkB: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180355	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 3vy88JbvS32PSmnR: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180356	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 41lNWHdPRQej1bfy: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180356	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 43jR5tnaSxyKdzZB: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180356	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 459vDMJXSqOzA0XX: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180356	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 45yJAaijSPefKvrq: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180357	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 46mMtCkBR82aLu9z: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180357	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4AXCJ9wHRReYoeQF: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180357	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4Ad7jX1BTQmRXeUP: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180357	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4ELNbzOPRYWz6pSK: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180358	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4EXBHVoWRUaidGnV: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180358	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4FyHVLUXQT6nVd6w: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180358	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4K5l65tVRWOCswgj: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180358	Sync.Engine.Forms	WARN	Failed to reconcile incoming record 4LFnU2ZSTpGtq49t: Error: Connection is not open.(resource://gre/modules/Sqlite.sys.mjs:1115:13) JS Stack trace: ensureOpen@Sqlite.sys.mjs:1115:13
+executeCached@Sqlite.sys.mjs:692:10
+executeCached@Sqlite.sys.mjs:1805:33
+search@FormHistory.sys.mjs:1041:16
+1704911180359	Sync.Status	DEBUG	Status for engine forms: error.engine.reason.unknown_fail
+1704911180359	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1704911180359	Sync.ErrorHandler	DEBUG	forms was interrupted due to the application shutting down
+1704911180359	Sync.Synchronizer	INFO	forms was interrupted by shutdown; no other engines will sync
+1704911180359	Sync.Synchronizer	INFO	Aborting sync for failure in forms
+1704911180359	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1704911180359	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1704911180359	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1704911180359	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1704911180359	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1704911180359	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1704911180360	Sync.Synchronizer	INFO	Sync completed at 2024-01-10 23:56:20 after 6.33 secs.
+1704911180360	Sync.Declined	DEBUG	Handling remote declined: ["creditcards"]
+1704911180360	Sync.Declined	DEBUG	Handling local declined: ["creditcards"]
+1704911180360	Sync.Declined	DEBUG	Declined changed? false
+1704911180360	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1704911180360	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1704911180360	Sync.ErrorHandler	WARN	Failed to dump addons: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.sys.mjs :: getAddonsByTypes :: line 2948"  data: no] Stack trace: getAddonsByTypes()@resource://gre/modules/AddonManager.sys.mjs:2948
+getAddonsByTypes()@resource://gre/modules/AddonManager.sys.mjs:4318
+_dumpAddons()@resource://services-sync/policies.sys.mjs:949
+resetFileLog()@resource://services-sync/policies.sys.mjs:968
+observe()@resource://services-sync/policies.sys.mjs:920
+observe()@resource://services-common/observers.sys.mjs:131
+notify()@resource://services-common/observers.sys.mjs:83
+notify()@resource://services-sync/util.sys.mjs:183
+WrappedNotify()@resource://services-sync/util.sys.mjs:190
+1704911180360	Sync.SyncScheduler	DEBUG	Next sync in 90000 ms. (why=schedule)
