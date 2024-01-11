@@ -1,0 +1,4 @@
+[EmbedSettings]
+embed-application/pdf=false
+embed-application/vnd.openxmlformats-officedocument.wordprocessingml.document=false
+embed-application/x-mswinurl=false

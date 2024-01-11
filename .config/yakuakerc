@@ -1,0 +1,10 @@
+[Appearance]
+HideSkinBorders=true
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+ShowSystrayIcon=false

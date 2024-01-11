@@ -1,0 +1,8 @@
+[FileDialogSize]
+3 screens: Height=785
+3 screens: Width=1298
+
+[KFileDialog Settings]
+Recent Files[$e]=script-runner-gui.desktop,file:$HOME/script-runner-gui/pkg/script-runner-gui/usr/share/applications/script-runner-gui.desktop
+Recent URLs[$e]=file:$HOME/script-runner-gui/pkg/script-runner-gui/usr/share/applications/
+detailViewIconSize=16

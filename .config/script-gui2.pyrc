@@ -1,0 +1,8 @@
+[FileDialogSize]
+3 screens: Height=785
+3 screens: Width=1298
+
+[KFileDialog Settings]
+Recent Files[$e]=start-hfs.sh,file:$HOME/RDR2-fix.sh,file:///mount/drive1/Backups/start-hfs.sh
+Recent URLs[$e]=file:///mount/drive1/Backups/,file:$HOME/
+detailViewIconSize=16

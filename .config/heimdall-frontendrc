@@ -1,0 +1,8 @@
+[FileDialogSize]
+3 screens: Height=785
+3 screens: Width=1298
+
+[KFileDialog Settings]
+Recent Files[$e]=SAMFW.COM_SM-A507FN_INS_A507FNXXS7DWD1_fac.zip,file:$HOME/Downloads/Firmware/AP_A507FNXXS7DWD1_CL24260844_QB64646591_REV00_user_low_ship_meta_OS11.tar.md5,file:$HOME/Downloads/Firmware/SAMFW.COM_SM-A507FN_INS_A507FNXXS7DWD1_fac.zip
+Recent URLs[$e]=file:$HOME/Downloads/Firmware/,file:$HOME/
+iconViewIconSize=64

@@ -1,0 +1,9 @@
+[DiscoverUI]
+installedPageSorting=276
+
+[FlatpakSources]
+Sources=flathub
+
+[Window]
+geometry=1260,449,1040,760
+visibility=2

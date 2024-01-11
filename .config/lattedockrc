@@ -1,0 +1,57 @@
+[FileDialogSize]
+3 screens: Height=1024
+3 screens: Width=992
+
+[KFileDialog Settings]
+Recent Files[$e]=Default - 3.layout - full backup.latte.layout.latte,file:$HOME/Pictures/arch-linux-icon-md-253589589 copy.png,file:///mount/drive1/Default - 3.layout - full backup.latte.layout.latte,file:$HOME/Documents/script-gui/icon.png
+Recent URLs[$e]=file:///mount/drive1/,file:$HOME/,file:///mount/drive4/,file:$HOME/Documents/,file:$HOME/Documents/script-gui/,file:///mount/drive2/,file:$HOME/Pictures/
+detailViewIconSize=16
+iconViewIconSize=64
+
+[KPropertiesDialog]
+3 screens: Height=564
+3 screens: Width=504
+
+[LatteSettingsDialog]
+downloadWindowSize=980,600
+windowSize=1100,750
+
+[LatteSettingsDialog][TabLayouts]
+columnWidths=55,508,129,104
+sortColumn=3
+sortOrder=0
+
+[LatteSettingsDialog][ViewsDialog]
+columnWidths=59,256,142,135,131
+sortColumn=2
+sortOrder=0
+windowSize=980,630
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[ScreenConnectors]
+10=DP-2:::1080,105 2560x1440
+11=HDMI-0:::0,0 1080x1920
+12=HDMI-1:::3640,0 1080x1920
+13=Unknown-1:::0,0 1024x768
+14=None-1-1:::0,0 1024x768
+15=DP-0:::1080,116 2560x1440
+16=HDMI-A-1:::0,0 1080x1920
+17=HDMI-A-2:::3640,0 1080x1920
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+contextMenuActionsAlwaysShown=_layouts,_preferences,_quit_latte,_separator1,_add_latte_widgets,_add_view
+inAdvancedModeForEditSettings=true
+isAvailableGeometryBroadcastedToPlasma=true
+launchers=
+memoryUsage=0
+metaPressAndHoldEnabled=true
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+singleModeLayoutName=Default - 3.layout - full backup.latte
+userConfiguredAutostart=true
+version=2

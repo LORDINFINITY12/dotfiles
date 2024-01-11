@@ -1,0 +1,56 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=kitty --class="my_scripted_kitty"
+below=true
+belowrule=2
+closeablerule=2
+disableglobalshortcutsrule=2
+fpplevelrule=2
+fsplevel=4
+fsplevelrule=2
+noborder=true
+noborderrule=2
+opacityactive=100
+opacityactiverule=2
+opacityinactive=90
+opacityinactiverule=2
+skippager=true
+skippagerrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+wmclass=my_scripted_kitty my_scripted_kitty
+wmclasscomplete=true
+wmclassmatch=3
+
+[83973d55-ff03-44c6-b604-014231acdeab]
+Description=kitty --class="my_scripted_kitty"
+below=true
+belowrule=2
+closeablerule=2
+disableglobalshortcutsrule=2
+fpplevelrule=2
+fsplevel=4
+fsplevelrule=2
+noborder=true
+noborderrule=2
+opacityactive=100
+opacityactiverule=2
+opacityinactive=90
+opacityinactiverule=2
+skippager=true
+skippagerrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+wmclass=my_scripted_kitty my_scripted_kitty
+wmclasscomplete=true
+wmclassmatch=3
+
+[General]
+count=1
+rules=1

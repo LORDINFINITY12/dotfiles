@@ -1,0 +1,33 @@
+[Added Associations]
+application/pdf=firefox.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.onlyoffice.desktopeditors.desktop;
+application/x-desktop=org.kde.konsole.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;vscodium.desktop;vim.desktop;
+application/x-mswinurl=firefox.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/plain=org.kde.kwrite.desktop;org.kde.kate.desktop;
+x-scheme-handler/discord-712465656758665259=discord-712465656758665259.desktop;
+x-scheme-handler/etcher=balena-etcher.desktop;
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/heroic=heroic.desktop
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/mailto=firefox.desktop;
+x-scheme-handler/x-github-client=github-desktop.desktop;GitHub Desktop.desktop;
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop;GitHub Desktop.desktop;
+
+[Default Applications]
+application/pdf=firefox.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.onlyoffice.desktopeditors.desktop;
+application/x-desktop=org.kde.konsole.desktop;
+application/x-mswinurl=firefox.desktop;
+inode/directory=org.kde.dolphin.desktop;
+text/plain=org.kde.kate.desktop
+x-scheme-handler/discord-712465656758665259=discord-712465656758665259.desktop
+x-scheme-handler/etcher=balena-etcher.desktop
+x-scheme-handler/geo=google-maps-geo-handler.desktop;
+x-scheme-handler/heroic=heroic.desktop
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/mailto=firefox.desktop;
+x-scheme-handler/x-github-client=github-desktop.desktop
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop

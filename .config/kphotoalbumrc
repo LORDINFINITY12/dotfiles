@@ -1,0 +1,26 @@
+[General]
+imageDBFile=/home/infinity/Pictures/index.xml
+untaggedCategory=Events
+untaggedTag=untagged
+
+[MainWindow]
+3 screens: Height=734
+3 screens: Width=1433
+3 screens: XPosition=1204
+3 screens: YPosition=666
+DP-2 HDMI-0 HDMI-1=DP-2
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABZkAAAJjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAEgBzAGUAYQByAGMAaABCAGEAcgEAAAJr/////wAAAAAAAAAAAAAAEgBmAGkAbAB0AGUAcgBCAGEAcgEAAAMP/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Privacy Settings - /home/infinity/Pictures/]
+locked=false
+
+[Thumbnails - /home/infinity/Pictures/]
+thumbSize=256
+
+[UiSettings]
+ColorScheme=
+
+[Window Geometry]
+MainWindow=1204,666,1433,734

@@ -1,0 +1,9 @@
+[FileDialogSize]
+3 screens: Height=784
+3 screens: Width=1300
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/2023-11-29_23-53.png,file:$HOME/Pictures/2023-12-24_19-48.png,file:$HOME/Pictures/r-unixp/2023-12-22_23-46_2.png,file:$HOME/Pictures/r-unixp/2023-12-22_23-46_1.png,file:$HOME/Pictures/r-unixp/2023-12-22_23-46.png,file:$HOME/Pictures/r-unixp/2023-12-22_23-45.png,file:$HOME/Pictures/r-unixp/2023-12-22_23-43.png,file:$HOME/Pictures/2023-12-20_17-24.png,file:$HOME/Pictures/2023-12-02_13-53.png,file:$HOME/Pictures/2023-12-01_04-11.png,file:$HOME/Pictures/2023-11-30_09-27.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Documents/,file:$HOME/,file:$HOME/Pictures/r-unixp/
+detailViewIconSize=16
+iconViewIconSize=64

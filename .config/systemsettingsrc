@@ -1,0 +1,40 @@
+[FileDialogSize]
+3 screens: Height=1024
+3 screens: Width=992
+
+[KFileDialog Settings]
+Recent Files[$e]=restore_windows.sh,file:$HOME/Pictures/Cyberpunk5.jpg,file:$HOME/.wallpapers/cyberpunk4.jpg,file:$HOME/Pictures/cyberpunk4.jpg,file:$HOME/restore_windows.sh,file:$HOME/play_music.sh,file:$HOME/Pictures/th-3966297048.jpg
+Recent URLs[$e]=file:$HOME/,file:$HOME/Pictures/,file:$HOME/Documents/,file:$HOME/Downloads/,file:$HOME/.wallpapers/
+detailViewIconSize=128
+iconViewIconSize=64
+
+[KPropertiesDialog]
+3 screens: Height=564
+3 screens: Width=504
+
+[MainWindow]
+1024x768 screen: Height=691
+1024x768 screen: Width=922
+1080x1920 screen: Height=700
+1080x1920 screen: Width=1020
+1080x1920 screen: XPosition=54
+1080x1920 screen: YPosition=642
+2 screens: Height=700
+2 screens: Width=1020
+2 screens: XPosition=474
+2 screens: YPosition=204
+3 screens: Height=910
+3 screens: Width=1706
+3 screens: XPosition=1547
+3 screens: YPosition=323
+DP-0 HDMI-0 HDMI-1=DP-0
+DP-2 HDMI-0 HDMI-1=DP-2
+HDMI-0=HDMI-0
+HDMI-0 HDMI-1=HDMI-1
+HDMI-1=HDMI-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABqoAAAOOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true

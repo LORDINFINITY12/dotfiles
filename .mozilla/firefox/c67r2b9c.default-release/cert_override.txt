@@ -1,3 +1,0 @@
-# PSM Certificate Override Settings file
-# This is a generated file!  Do not edit.
-www.twrp.me:443:	OID.2.16.840.1.101.3.4.2.1	2A:19:5F:27:72:C5:5F:14:02:89:B4:EF:05:2D:13:A2:98:09:8F:0A:98:91:49:62:9D:68:EA:09:52:E7:25:5B	
