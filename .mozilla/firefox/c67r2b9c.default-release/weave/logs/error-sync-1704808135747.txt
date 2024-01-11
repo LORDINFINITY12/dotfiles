@@ -1,0 +1,20 @@
+1704808093500	Sync.LogManager	DEBUG	Flushing file log
+1704808093501	Sync.LogManager	DEBUG	Log cleanup threshold time: 1703944093501
+1704808093501	Sync.LogManager	DEBUG	Done deleting files.
+1704808120678	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1704808120678	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1704808120679	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808120680	Sync.Service	DEBUG	User-Agent: Firefox/121.0 (Linux x86_64) FxSync/1.123.0.20231220010123.desktop
+1704808120680	Sync.Service	INFO	Starting sync at 2024-01-09 19:18:40 in browser session ICM-drejjNK7
+1704808120680	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1704808120681	Sync.Status	INFO	Resetting Status.
+1704808120681	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1704808120681	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1704808122425	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808124209	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1704808135745	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/177970235/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1704808135745	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1704808135745	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1704808135745	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1704808135745	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1704808135747	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
