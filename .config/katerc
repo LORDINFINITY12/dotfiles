@@ -12,7 +12,7 @@ Show Tab Bar=true
 Show Url Nav Bar=true
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/script-gui(1).py,file:$HOME/Desktop/calculator.py,file:$HOME/Documents/Bro Robert,file:$HOME/.config/neofetch/config.conf,file:$HOME/script-gui.py,file:$HOME/script-gui1.py,file:$HOME/script-gui2.py
+Recent Files[$e]=file:$HOME/.config/neofetch/config.conf,file:$HOME/install_fonts.sh
 Recent URLs[$e]=file:$HOME/.config/neofetch/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Desktop/
 detailViewIconSize=16
 iconViewIconSize=64
@@ -132,7 +132,8 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=colors,delete_script,load,icon
+Replace History=\\0
+Search History=3.1.1-1,colors,delete_script,load,icon
 
 [MainWindow]
 3 screens: Height=480

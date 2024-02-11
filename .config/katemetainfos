@@ -1,14 +1,14 @@
-[file:///home/infinity/.bashrc]
+[file:///etc/X11/xorg.conf]
 Bookmarks=
-Checksum=6e84c332b1048c764120aa9b0d198ff3b05b5c9f
+Checksum=b9d25086d3d76c0be10444b0b1cb3bee730d7db6
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=x.org Configuration
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=x.org Configuration
 Mode Set By User=false
-Time=2023,12,21,18,5,57.555
-URL=file:///home/infinity/.bashrc
+Time=2024,1,25,12,20,29.103
+URL=file:///etc/X11/xorg.conf
 
 [file:///home/infinity/.config/Kvantum/Layan/Layan.kvconfig]
 Bookmarks=
@@ -82,18 +82,6 @@ Mode Set By User=false
 Time=2023,12,26,12,37,26.915
 URL=file:///home/infinity/.config/btop/btop.conf
 
-[file:///home/infinity/.config/cava/config]
-Bookmarks=
-Checksum=1b9e68c8e4d7a8b39dce0e4a9c67f83094d647f7
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,16,7,4,28.781
-URL=file:///home/infinity/.config/cava/config
-
 [file:///home/infinity/.config/eww/eww.yuck]
 Bookmarks=
 Checksum=c5d6410b9d0802017439d9d1285269609e198f34
@@ -105,66 +93,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2024,1,7,17,20,46.208
 URL=file:///home/infinity/.config/eww/eww.yuck
-
-[file:///home/infinity/.config/lf/lf_kitty_clean]
-Bookmarks=
-Checksum=16a2e6662c7861f29c1a70079d66325c5034ee1d
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,12,21,18,24,26.17
-URL=file:///home/infinity/.config/lf/lf_kitty_clean
-
-[file:///home/infinity/.config/lf/lf_kitty_preview]
-Bookmarks=
-Checksum=b34f68da181d7d2539f05c9b376fc4c08858f721
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,12,21,18,24,26.17
-URL=file:///home/infinity/.config/lf/lf_kitty_preview
-
-[file:///home/infinity/.config/lf/lfrc]
-Bookmarks=
-Checksum=fa179f5ec619db36a86bc5c0b98338f5cd2bc8c1
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,21,18,24,26.17
-URL=file:///home/infinity/.config/lf/lfrc
-
-[file:///home/infinity/.config/neofetch/config.conf]
-Bookmarks=
-Checksum=e6b2aba914292ceffddc1f92786ad698a4ef70af
-Encoding=UTF-8
-Highlighting=TOML
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=TOML
-Mode Set By User=false
-Time=2023,12,21,9,41,10.337
-URL=file:///home/infinity/.config/neofetch/config.conf
-
-[file:///home/infinity/.config/spicetify/config-xpui.ini]
-Bookmarks=
-Checksum=90b21de26343363a1b0187d2b2558a2980efaace
-Encoding=UTF-8
-Highlighting=INI Files
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=INI Files
-Mode Set By User=false
-Time=2023,12,22,19,31,30.831
-URL=file:///home/infinity/.config/spicetify/config-xpui.ini
 
 [file:///home/infinity/.config/synth-shell/alias.sh]
 Bookmarks=
@@ -262,65 +190,77 @@ Mode Set By User=false
 Time=2024,1,10,14,1,17.018
 URL=file:///home/infinity/.config/waybar/config.jsonc
 
-[file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/README.md]
+[file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/hide-window-buttons.css]
 Bookmarks=
-Checksum=561911d0d345a61a9d2cd2b94b028332679d1967
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,12,22,20,26,28.979
-URL=file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/README.md
-
-[file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/components/window-transparencies.css]
-Bookmarks=
-Checksum=dfd81afaa3cec31642831c68a50156553cd41439
+Checksum=2859cebd8504e67d6d08e02881fafd08a6502841
 Encoding=UTF-8
 Highlighting=CSS
 Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=CSS
 Mode Set By User=false
-Time=2023,12,22,20,25,10.966
-URL=file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/components/window-transparencies.css
+Time=2024,1,25,14,5,26.353
+URL=file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/hide-window-buttons.css
 
-[file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/style_1-wallpaper-edition.css]
+[file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/parts/buttons-fixes.css]
 Bookmarks=
-Checksum=9fd669cd38d6a8505485801d80e9c8f904df78cd
+Checksum=c75f10d9341b3f4d5e9b14cc052503f360e46607
 Encoding=UTF-8
 Highlighting=CSS
 Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=CSS
 Mode Set By User=false
-Time=2023,12,22,21,19,37.039
-URL=file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/style_1-wallpaper-edition.css
+Time=2024,1,25,14,4,53.333
+URL=file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/parts/buttons-fixes.css
 
-[file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/userChrome.css]
+[file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/parts/buttons.css]
 Bookmarks=
-Checksum=412aa4644598888c460d5c9bb08758c1778e7d45
+Checksum=2a24d736a33045e7b9bfed9217c10973467c4b6f
 Encoding=UTF-8
 Highlighting=CSS
 Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=CSS
 Mode Set By User=false
-Time=2023,12,22,21,19,37.039
-URL=file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/userChrome.css
+Time=2024,1,25,14,6,19.602
+URL=file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/parts/buttons.css
 
-[file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/userContent.css]
+[file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/parts/titlebutton-dark.css]
 Bookmarks=
-Checksum=fe86112f39bec09d5fbb432ced481970aca69eb6
+Checksum=daa3b87faca6a573a9db9894ccf37edeb5322787
 Encoding=UTF-8
 Highlighting=CSS
 Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=CSS
 Mode Set By User=false
-Time=2023,12,22,21,19,37.039
-URL=file:///home/infinity/.mozilla/firefox/446lw0o9.default-release/chrome/userContent.css
+Time=2024,1,25,14,4,53.333
+URL=file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/WhiteSur/parts/titlebutton-dark.css
+
+[file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/userChrome.css]
+Bookmarks=
+Checksum=eef63d414b97d6bbc4dee7b735edb5d0756bbffa
+Encoding=UTF-8
+Highlighting=CSS
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=CSS
+Mode Set By User=false
+Time=2024,1,25,13,47,5.396
+URL=file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/userChrome.css
+
+[file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/userContent.css]
+Bookmarks=
+Checksum=0a141c1aeee424b454782586c3bd649b398112f5
+Encoding=UTF-8
+Highlighting=CSS
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=CSS
+Mode Set By User=false
+Time=2024,1,25,14,11,22.091
+URL=file:///home/infinity/.mozilla/firefox/fxtufx7j.default-release/chrome/userContent.css
 
 [file:///home/infinity/.mozilla/firefox/installs.ini]
 Bookmarks=
@@ -346,30 +286,6 @@ Mode Set By User=false
 Time=2024,1,10,22,40,57.203
 URL=file:///home/infinity/.mozilla/firefox/profiles.ini
 
-[file:///home/infinity/.nvidia-settings-rc]
-Bookmarks=
-Checksum=f9d5acf43a833948b61dd1ac9cfaca670e0d6bac
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,23,17,54,5.875
-URL=file:///home/infinity/.nvidia-settings-rc
-
-[file:///home/infinity/.pam_environment]
-Bookmarks=
-Checksum=9b8814b8be199db68aec6fa815e579b715c169b7
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,21,18,20,56.594
-URL=file:///home/infinity/.pam_environment
-
 [file:///home/infinity/.var/app/org.mozilla.firefox/.mozilla/firefox/profiles.ini]
 Bookmarks=
 Checksum=e5f37b02a0f9e4a9b181108e58e41fa2f482127d
@@ -391,44 +307,8 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2023,12,21,18,21,3.468
+Time=2024,1,25,1,30,39.569
 URL=file:///home/infinity/.vimrc
-
-[file:///home/infinity/Desktop/.directory]
-Bookmarks=
-Checksum=e11e6af38f0591def299b5ebb20818faf4d0e612
-Encoding=UTF-8
-Highlighting=.desktop
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=.desktop
-Mode Set By User=false
-Time=2023,12,18,7,40,7.16
-URL=file:///home/infinity/Desktop/.directory
-
-[file:///home/infinity/Desktop/calculator.py]
-Bookmarks=
-Checksum=76f3049ad7c5edc9a1477b18ab43da6c4b3aa151
-Encoding=UTF-8
-Highlighting=Python
-Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
-Mode Set By User=false
-Time=2023,12,20,15,10,50.542
-URL=file:///home/infinity/Desktop/calculator.py
-
-[file:///home/infinity/Documents/Bro Robert]
-Bookmarks=
-Checksum=a8190a4ff4499b25c5b51ecd8f9dec935739ae23
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,11,12,34,49.551
-URL=file:///home/infinity/Documents/Bro Robert
 
 [file:///home/infinity/Documents/GitHub/dotfiles/.bashrc]
 Bookmarks=
@@ -454,18 +334,6 @@ Mode Set By User=false
 Time=2024,1,10,22,34,50.482
 URL=file:///home/infinity/Documents/GitHub/dotfiles/.mozilla/firefox/profiles.ini
 
-[file:///home/infinity/Downloads/ComicReader.bundle-1.3.5/README.md]
-Bookmarks=
-Checksum=1e0c8f6b50ae73915b4b7ae48e25963c1796664d
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,12,18,14,15,44.852
-URL=file:///home/infinity/Downloads/ComicReader.bundle-1.3.5/README.md
-
 [file:///home/infinity/Downloads/Confirmation of Viva_Internship Documentation Submission.eml]
 Bookmarks=
 Checksum=75aa1f379ab1adfa8cc71d794a75c554f8f49169
@@ -478,53 +346,17 @@ Mode Set By User=false
 Time=2024,1,9,17,14,47.489
 URL=file:///home/infinity/Downloads/Confirmation of Viva_Internship Documentation Submission.eml
 
-[file:///home/infinity/Downloads/chrome/tst_theme.css]
+[file:///home/infinity/Downloads/firefox-csshacks-master/userContent_example.css]
 Bookmarks=
-Checksum=8c39fc956d75611aaa9c91ffba896e6c586ff04a
+Checksum=d5e1f00f01c4d85a2f4cebe4bde4430d6856bc71
 Encoding=UTF-8
 Highlighting=CSS
 Highlighting Set By User=false
 Indentation Mode=cstyle
 Mode=CSS
 Mode Set By User=false
-Time=2023,12,22,20,13,32.713
-URL=file:///home/infinity/Downloads/chrome/tst_theme.css
-
-[file:///home/infinity/Downloads/chrome/userChrome.css]
-Bookmarks=
-Checksum=d0161de749af85a7f83565f9ffdb2454150f096a
-Encoding=UTF-8
-Highlighting=CSS
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=CSS
-Mode Set By User=false
-Time=2023,12,22,20,13,41.307
-URL=file:///home/infinity/Downloads/chrome/userChrome.css
-
-[file:///home/infinity/Downloads/chrome/userContent.css]
-Bookmarks=
-Checksum=c7c613ffe15ee1ff4022590f03ff3aa3c4c37779
-Encoding=UTF-8
-Highlighting=CSS
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=CSS
-Mode Set By User=false
-Time=2023,12,22,20,19,7.9350000000000005
-URL=file:///home/infinity/Downloads/chrome/userContent.css
-
-[file:///home/infinity/Downloads/lf-config/icons]
-Bookmarks=
-Checksum=409ca88b7ec911949cfb8a119c4b1d4dcaefc473
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,23,17,30,16.642
-URL=file:///home/infinity/Downloads/lf-config/icons
+Time=2024,1,25,14,4,53.333
+URL=file:///home/infinity/Downloads/firefox-csshacks-master/userContent_example.css
 
 [file:///home/infinity/Downloads/yuzu-early-access/PKGBUILD]
 Bookmarks=
@@ -550,18 +382,6 @@ Mode Set By User=false
 Time=2023,12,26,9,12,31.033
 URL=file:///home/infinity/Makefile
 
-[file:///home/infinity/aur_pkglist.txt]
-Bookmarks=
-Checksum=39b081d505bb125cc4338b8610d0d934864ab437
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,21,18,22,35.181
-URL=file:///home/infinity/aur_pkglist.txt
-
 [file:///home/infinity/dotfiles/hypr/hyprland.conf]
 Bookmarks=
 Checksum=81731a59abe26bd0cb532003fe424e6d765b169f
@@ -573,6 +393,42 @@ Mode=TOML
 Mode Set By User=false
 Time=2024,1,9,15,13,43.094
 URL=file:///home/infinity/dotfiles/hypr/hyprland.conf
+
+[file:///home/infinity/go/pkg/mod/golang.org/x/sys@v0.15.0/unix/zsysnum_netbsd_arm.go]
+Bookmarks=
+Checksum=d59b943ac22a2acf45dc08afc58210d00039acf5
+Encoding=UTF-8
+Highlighting=Go
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=Go
+Mode Set By User=false
+Time=2024,1,25,1,36,50.293
+URL=file:///home/infinity/go/pkg/mod/golang.org/x/sys@v0.15.0/unix/zsysnum_netbsd_arm.go
+
+[file:///home/infinity/install_fonts.sh]
+Bookmarks=
+Checksum=a930072b64ae4ae520cae80b361c34a60ce2bbce
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2024,1,25,14,40,2.5540000000000003
+URL=file:///home/infinity/install_fonts.sh
+
+[file:///home/infinity/list-aur.txt]
+Bookmarks=
+Checksum=c72c98ea64e8c827204b69ac522081c12d1362ef
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2024,1,25,1,30,39.569
+URL=file:///home/infinity/list-aur.txt
 
 [file:///home/infinity/main.lst]
 Bookmarks=
@@ -597,30 +453,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2023,12,27,3,9,9.183
 URL=file:///home/infinity/pacman-installed.txt
-
-[file:///home/infinity/pkglist.txt]
-Bookmarks=
-Checksum=732d7033499471bcf6c0c78f3921a7a9e31c7d0a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2023,12,23,17,54,19.264
-URL=file:///home/infinity/pkglist.txt
-
-[file:///home/infinity/play_music.sh]
-Bookmarks=
-Checksum=98a7173f7e59c2cd9ed747211fdc27e8b6193c0a
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,12,15,6,11,49.798
-URL=file:///home/infinity/play_music.sh
 
 [file:///home/infinity/restore_windows.sh]
 Bookmarks=
@@ -658,53 +490,17 @@ Mode Set By User=false
 Time=2024,1,9,15,13,43.094
 URL=file:///home/infinity/xrandr-hyprland
 
-[file:///home/infinity/xrandr-test.sh]
+[file:///mount/drive1/Default - 3.layout - full backup.latte.layout.latte]
 Bookmarks=
-Checksum=f9c495ea29ec4dd7abd3529458d763c34b9e40b5
+Checksum=184e4189a23f777a88dbf45449475ff8c5f88243
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Bash
+Mode=Normal
 Mode Set By User=false
-Time=2023,12,17,9,36,17.291
-URL=file:///home/infinity/xrandr-test.sh
-
-[file:///mount/drive1/Linux setup scripts/config/spicetify/config-xpui.ini]
-Bookmarks=
-Checksum=90b21de26343363a1b0187d2b2558a2980efaace
-Encoding=UTF-8
-Highlighting=INI Files
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=INI Files
-Mode Set By User=false
-Time=2023,12,22,19,34,15.18
-URL=file:///mount/drive1/Linux setup scripts/config/spicetify/config-xpui.ini
-
-[file:///mount/drive1/Linux setup scripts/kitty/kitty.conf]
-Bookmarks=
-Checksum=7c3ddd926173a892511241aa859dc9647493ae82
-Encoding=UTF-8
-Highlighting=TOML
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=TOML
-Mode Set By User=false
-Time=2023,12,21,9,39,17.646
-URL=file:///mount/drive1/Linux setup scripts/kitty/kitty.conf
-
-[file:///mount/drive1/Linux setup scripts/rc files/.bashrc]
-Bookmarks=
-Checksum=2bff7a6b9427c24d98e0db2b40fed7cf72542b37
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2023,12,22,16,45,14.828
-URL=file:///mount/drive1/Linux setup scripts/rc files/.bashrc
+Time=2024,1,25,1,31,40.37
+URL=file:///mount/drive1/Default - 3.layout - full backup.latte.layout.latte
 
 [file:///mount/drive1/Linux setup scripts/restore_windows.sh]
 Bookmarks=
@@ -730,6 +526,30 @@ Mode Set By User=false
 Time=2023,12,27,9,36,45.712
 URL=file:///mount/drive1/flatpak_installed_list.txt
 
+[file:///mount/drive1/packages list arch/flatpak_installed_list.txt]
+Bookmarks=
+Checksum=f7ef95ff51ce7673d001b2621d1e30a4446ecd26
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2024,1,25,1,30,39.569
+URL=file:///mount/drive1/packages list arch/flatpak_installed_list.txt
+
+[file:///mount/drive1/packages list arch/installed-fonts.txt]
+Bookmarks=
+Checksum=2d8b7ac5e178f4118bb3985b4653cbf84a23968e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2024,1,25,14,36,58.074
+URL=file:///mount/drive1/packages list arch/installed-fonts.txt
+
 [file:///mount/drive4/SteamLibrary/steamapps/compatdata/208650/pfx/drive_c/users/steamuser/Documents/WB Games/Batman Arkham Knight/GFXSettings.BatmanArkhamKnight.xml]
 Bookmarks=
 Checksum=0a7a2f1578b2f770db49934e6490ecded4c578e6
@@ -741,27 +561,3 @@ Mode=XML
 Mode Set By User=false
 Time=2024,1,9,17,58,36.125
 URL=file:///mount/drive4/SteamLibrary/steamapps/compatdata/208650/pfx/drive_c/users/steamuser/Documents/WB Games/Batman Arkham Knight/GFXSettings.BatmanArkhamKnight.xml
-
-[file:///var/lib/plex/Plex Media Server/Plug-ins/ComicReader.bundle/README.md]
-Bookmarks=
-Checksum=1e0c8f6b50ae73915b4b7ae48e25963c1796664d
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,12,18,14,29,15.54
-URL=file:///var/lib/plex/Plex Media Server/Plug-ins/ComicReader.bundle/README.md
-
-[file:///var/lib/plex/Plex Media Server/Plug-ins/Mangahere.bundle/README.md]
-Bookmarks=
-Checksum=3e9369b6e635c57aa1a830ffed7950a5155f0476
-Encoding=UTF-8
-Highlighting=Markdown
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Markdown
-Mode Set By User=false
-Time=2023,12,18,14,58,29.341
-URL=file:///var/lib/plex/Plex Media Server/Plug-ins/Mangahere.bundle/README.md

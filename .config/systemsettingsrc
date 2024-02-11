@@ -1,16 +1,16 @@
 [FileDialogSize]
 3 screens: Height=1024
-3 screens: Width=992
+3 screens: Width=1444
 
 [KFileDialog Settings]
-Recent Files[$e]=restore_windows.sh,file:$HOME/Pictures/Cyberpunk5.jpg,file:$HOME/.wallpapers/cyberpunk4.jpg,file:$HOME/Pictures/cyberpunk4.jpg,file:$HOME/restore_windows.sh,file:$HOME/play_music.sh,file:$HOME/Pictures/th-3966297048.jpg
+Recent Files[$e]=restore_windows.sh,file:$HOME/.wallpapers/cyberpunk3.jpg,file:$HOME/Pictures/d25d0f599b6aed12a83aea397aeffa53.jpg,file:$HOME/Pictures/anime-boy-with-black-hair-holding-black-cat-his-arms-generative-ai_958108-23613.avif,file:$HOME/.wallpapers/Cyberpunk5.jpg,file:$HOME/restore_windows.sh,file:$HOME/play_music.sh,file:$HOME/xrandr-test.sh,file:$HOME/.wallpapers/cyberpunk4.jpg
 Recent URLs[$e]=file:$HOME/,file:$HOME/Pictures/,file:$HOME/Documents/,file:$HOME/Downloads/,file:$HOME/.wallpapers/
 detailViewIconSize=128
 iconViewIconSize=64
 
 [KPropertiesDialog]
-3 screens: Height=564
-3 screens: Width=504
+3 screens: Height=510
+3 screens: Width=482
 
 [MainWindow]
 1024x768 screen: Height=691
@@ -25,14 +25,15 @@ iconViewIconSize=64
 2 screens: YPosition=204
 3 screens: Height=910
 3 screens: Width=1706
-3 screens: XPosition=1547
-3 screens: YPosition=323
+3 screens: XPosition=1488
+3 screens: YPosition=490
 DP-0 HDMI-0 HDMI-1=DP-0
 DP-2 HDMI-0 HDMI-1=DP-2
 HDMI-0=HDMI-0
 HDMI-0 HDMI-1=HDMI-1
 HDMI-1=HDMI-1
 MenuBar=Disabled
+RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAABqoAAAOOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 

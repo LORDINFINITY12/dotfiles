@@ -3,14 +3,17 @@
 3 screens: Width=992
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Pictures/a.png,file:$HOME/Pictures/chill-anime-1080x1920.jpg,file:$HOME/Pictures/image2.jpg,file:$HOME/Pictures/cyberpunk2.jpg,file:$HOME/Pictures/megumi.jpg,file:$HOME/Pictures/anime-girl-in-rain-with-umbrella-4k-t0-2160x3840.jpg
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/
+Recent Files[$e]=file:$HOME/.wallpapers/megumi.jpg,file:$HOME/.wallpapers/chill-anime-1080x1920.jpg
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Downloads/
 detailViewIconSize=16
 iconViewIconSize=64
 
 [KPropertiesDialog]
 3 screens: Height=542
 3 screens: Width=517
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44

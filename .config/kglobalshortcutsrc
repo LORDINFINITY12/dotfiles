@@ -1,10 +1,14 @@
+[$Version]
+update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category
+
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-271497ea-25cb-4523-8b0f-48050799b9ee=none,none,Switch to activity "Default"
 switch-to-activity-276759d5-46fc-4879-bd44-308d20e73204=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
-Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -205,9 +209,9 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 _k_friendly_name=Latte Dock
 activate entry 1=none,Meta+1,Activate Entry 1
 activate entry 10=none,Meta+0,Activate Entry 10
-activate entry 11=none,Meta+Z,Activate Entry 11
-activate entry 12=none,Meta+X,Activate Entry 12
-activate entry 13=none,Meta+C,Activate Entry 13
+activate entry 11=Meta+Z,Meta+Z,Activate Entry 11
+activate entry 12=Meta+X,Meta+X,Activate Entry 12
+activate entry 13=Meta+C,Meta+C,Activate Entry 13
 activate entry 14=none,Meta+V,Activate Entry 14
 activate entry 15=Meta+B,Meta+B,Activate Entry 15
 activate entry 16=Meta+N,Meta+N,Activate Entry 16
@@ -275,6 +279,10 @@ _launch=none,none,Flameshot
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
 
+[org.kde.kcalc.desktop]
+_k_friendly_name=KCalc
+_launch=Launch (1),Launch (1),KCalc
+
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
@@ -289,6 +297,15 @@ _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
 _launch=Meta+.\tMeta+Ctrl+Alt+Shift+Space,Meta+.\tMeta+Ctrl+Alt+Shift+Space,Emoji Selector
+
+[org.kde.spectacle.desktop]
+ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
+CurrentMonitorScreenShot=none,none,Capture Current Monitor
+FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
+OpenWithoutScreenshot=none,none,Launch without taking a screenshot
+RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
+_k_friendly_name=Spectacle
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -324,8 +341,8 @@ cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
-next activity=Meta+Tab,Meta+Tab,Walk through activities
-previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
+next activity=Meta+Tab,none,Walk through activities
+previous activity=Meta+Shift+Tab,none,Walk through activities (Reverse)
 repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,none,Show Barcode…

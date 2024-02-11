@@ -37,6 +37,9 @@ autoload=true
 [Module-khotkeys]
 autoload=true
 
+[Module-kmixd]
+autoload=false
+
 [Module-kscreen]
 autoload=true
 

@@ -1,146 +1,255 @@
 updateInfoAdded=true
 
 [ark.upd]
-ctime=1702062647
+ctime=1706140269
 done=add-hamburgermenu-to-toolbar
 mtime=1701863392
 
+[bismuth_new_logger.upd]
+ctime=1706145762
+done=bismuth-new-logger
+mtime=1706143648
+
+[bismuth_old_conf_ui.upd]
+ctime=1706145762
+done=bismuth-old-conf-ui
+mtime=1706143648
+
+[bismuth_shortcuts_category.upd]
+ctime=1706145762
+done=bismuth-shortcuts-category
+mtime=1706143648
+
 [breezehighcontrasttobreezedark.upd]
-ctime=1704902058
+ctime=1706138414
 done=BreezeHighContrastToBreezeDark
 mtime=1701812294
 
 [breezetobreezeclassic.upd]
-ctime=1704902058
+ctime=1706138414
 done=BreezeToBreezeClassic
 mtime=1701812294
 
 [breezetobreezelight.upd]
-ctime=1704902058
+ctime=1706138414
 done=BreezeToBreezeLight
 mtime=1701812294
 
 [delete_cursor_old_default_size.upd]
-ctime=1704902059
+ctime=1706138417
 done=DeleteCursorOldDefaultSize
 mtime=1702320594
 
 [disable_kmix.upd]
-ctime=1704902060
+ctime=1706138419
 done=PlasmaVolume_DisableKMixAutostart
 mtime=1701816651
 
 [dolphin_detailsmodesettings.upd]
-ctime=1702062647
+ctime=1706140269
 done=rename-leading-padding,move-content-display
 mtime=1701826334
 
 [filepicker.upd]
-ctime=1702704286
+ctime=1707667119
 done=filepicker-remove-old-previews-entry
-mtime=1701558848
+mtime=1706981421
 
 [fonts_akregator.upd]
-ctime=1704902059
+ctime=1706138417
 done=Plasma_Fonts_Akregator
 mtime=1701812982
 
 [fonts_global.upd]
-ctime=1704902059
+ctime=1706138417
 done=Fonts_Global
 mtime=1701812982
 
 [fonts_global_toolbar.upd]
-ctime=1704902059
+ctime=1706138417
 done=Fonts_Global_Toolbar
 mtime=1701812982
 
 [fonts_kate.upd]
-ctime=1704902059
+ctime=1706138417
 done=Plasma_Fonts_Kate
 mtime=1701812982
 
 [gtkconfig.upd]
-ctime=1704902059
+ctime=1706138418
 done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option
 mtime=1701815483
 
+[gwenview.upd]
+ctime=1706140270
+mtime=1705445243
+
 [icons_remove_effects.upd]
-ctime=1704902059
+ctime=1706138417
 done=IconsRemoveEffects
 mtime=1702320594
 
 [katesession_migration.upd]
-ctime=1702062647
+ctime=1706140272
 done=migrate_kate_sessions_applet_to_kdeplasma-addons
 mtime=1701863559
 
+[katomic-levelset.upd]
+ctime=1706140272
+mtime=1701855066
+
+[kcalcrc.upd]
+ctime=1706140273
+mtime=1701863768
+
 [kcm_rename_plasma_desktop.upd]
-ctime=1704902060
+ctime=1706138418
 done=5.24PlasmaDesktopKCMRename
 mtime=1701816132
 
 [kcminputrc_fix_botched_5_21_0.upd]
-ctime=1704902060
+ctime=1706138418
 done=kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0
 mtime=1701816132
 
 [kcminputrc_repeat.upd]
-ctime=1704902060
+ctime=1706138418
 done=kcminputrc_migrate_key_repeat
 mtime=1701816132
 
+[kgthemeprovider-migration.upd]
+ctime=1706140269
+mtime=1701821594
+
+[kleopatra.upd]
+ctime=1706140274
+done=kleopatra-15.08-kickoff
+mtime=1701861244
+
+[klickety.upd]
+ctime=1706140275
+mtime=1701855587
+
 [konsole.upd]
-ctime=1702865175
+ctime=1706140275
 done=konsole_globalaccel,add-hamburgermenu-to-toolbar
 mtime=1702270770
 
+[konversation.upd]
+ctime=1706140275
+mtime=1701859746
+
+[kopete-account-kconf_update.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-gaim_to_pidgin_style.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-initialstatus.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-jabberpriorityaddition-kconf_update.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-jabberproxytype-kconf_update.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-nameTracking.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-pluginloader.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-pluginloader2.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-update_icq_server.upd]
+ctime=1706140275
+mtime=1701859839
+
+[kopete-update_icq_ssl.upd]
+ctime=1706140275
+mtime=1701859839
+
 [krunnerglobalshortcuts2.upd]
-ctime=1704902059
+ctime=1706138417
 done=5.22KRunnerGlobalShortcuts
 mtime=1702320594
 
 [krunnerhistory.upd]
-ctime=1704902059
+ctime=1706138417
 done=5.21KRunnerHistory
 mtime=1702320594
 
 [kscreenlocker.upd]
-ctime=1704902059
+ctime=1706138417
 done=0.1-autolock
 mtime=1701812113
 
 [ksmserver_update_loginMode_value.upd]
-ctime=1704902060
+ctime=1706138418
 done=ksmserver_update_loginMode_value_default_enum
 mtime=1701816132
 
 [kwin.upd]
-ctime=1704902059
+ctime=1706138417
 done=replace-scalein-with-scale,port-minimizeanimation-effect-to-js,port-scale-effect-to-js,port-dimscreen-effect-to-js,auto-bordersize,animation-speed,desktop-grid-click-behavior,no-swap-encourage,make-translucency-effect-disabled-by-default,remove-flip-switch-effect,remove-cover-switch-effect,remove-cubeslide-effect,remove-xrender-backend,enable-scale-effect-by-default,overview-group-plugin-id,animation-speed-cleanup,replace-cascaded-zerocornered
 mtime=1704459213
 
 [kwinrules.upd]
-ctime=1704902059
+ctime=1706138417
 done=replace-placement-string-to-enum,use-virtual-desktop-ids
 mtime=1704459213
 
 [kxkb.upd]
-ctime=1704902060
+ctime=1706138418
 done=remove-empty-lists,add-back-resetoptions
 mtime=1701816132
 
 [kxkb_variants.upd]
-ctime=1704902060
+ctime=1706138418
 done=split-variants
 mtime=1701816132
 
+[okular.upd]
+ctime=1706140276
+mtime=1701857285
+
 [plasmashell-5.27-use-panel-thickness-in-default-group.upd]
-ctime=1704902059
+ctime=1706138417
 done=plasmashell-5.27-use-panel-thickness-in-default-group
 mtime=1702320594
 
+[spectacle_clipboard.upd]
+ctime=1706140277
+mtime=1701857496
+
+[spectacle_newConfig.upd]
+ctime=1706140277
+mtime=1701857496
+
+[spectacle_rememberregion.upd]
+ctime=1706140277
+mtime=1701857496
+
+[spectacle_shortcuts.upd]
+ctime=1706140277
+done=spectacle-migrate-shortcuts
+mtime=1701857496
+
 [style_widgetstyle_default_breeze.upd]
-ctime=1704902059
+ctime=1706138417
 done=StyleWidgetStyleDefaultBreeze
 mtime=1702320594
+
+[webengineurlinterceptoradblock.upd]
+ctime=1706140273
+mtime=1701861045

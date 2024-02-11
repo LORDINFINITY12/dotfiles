@@ -1,0 +1,16 @@
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[MainWindow]
+3 screens: XPosition=140
+3 screens: YPosition=674
+DP-2 HDMI-0 HDMI-1=HDMI-0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAyAAAAIMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[MainWindowState]
+Splitter=226,573
+
+[Search]
+ScopeSelection=0

@@ -1,5 +1,5 @@
 [$Version]
-update_info=konsole.upd:konsole_globalaccel
+update_info=konsole.upd:konsole_globalaccel,spectacle_shortcuts.upd:spectacle-migrate-shortcuts
 
 [ColorEffects:Disabled]
 ChangeSelectionColor[$d]
@@ -1053,6 +1053,9 @@ ScreenScaleFactors[$d]
 AlreadyImported=defaults,kde32b1,konqueror_gestures_kde321
 Disabled=false
 Version=2
+
+[PreviewSettings]
+MaximumRemoteSize[$d]
 
 [Toolbar style]
 ToolButtonStyle[$d]

@@ -128,19 +128,21 @@ Word Completion Remove Tail=true
 [MainWindow]
 3 screens: Height=600
 3 screens: Width=814
-3 screens: XPosition=137
-3 screens: YPosition=712
-DP-2 HDMI-0 HDMI-1=HDMI-0
+3 screens: XPosition=1747
+3 screens: YPosition=682
+DP-2 HDMI-0 HDMI-1=DP-2
 State=AAAA/wAAAAD9AAAAAQAAAAEAAADUAAACJ/wCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAAAxAAACJwAAAHsA///+AAACWQAAAicAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 StatusBar=Disabled
 ToolBarsMovable=Disabled
+splitterSizes=607,304
 
 [Viewer]
-3 screens: Height=559
-3 screens: Width=1062
-3 screens: XPosition=2241
-3 screens: YPosition=832
+3 screens: Height=481
+3 screens: Width=912
+3 screens: XPosition=1874
+3 screens: YPosition=687
 DP-2 HDMI-0 HDMI-1=DP-2
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABCYAAAH+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA5AAAAGwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
 ToolBarsMovable=Disabled

@@ -1,0 +1,24 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+3 screens: Height=480
+3 screens: Width=640
+3 screens: XPosition=2040
+3 screens: YPosition=617
+DP-2 HDMI-0 HDMI-1=DP-2
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Desktop/blur-grub2_fullhd/blur-grub2-fullhd/background.png
+File2[$e]=$HOME/.wallpapers/6697029-3671856120.jpg
+Name1[$e]=background.png
+Name2[$e]=6697029-3671856120.jpg
+
+[SideBar]
+InformationSplitterSizes=220,237

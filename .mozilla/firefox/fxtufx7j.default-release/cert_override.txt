@@ -1,0 +1,3 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+www.main.sci.gov.in:443:	OID.2.16.840.1.101.3.4.2.1	70:95:7E:62:14:BA:ED:ED:0A:0B:B1:28:FF:F0:BC:A5:A5:8A:5D:C0:F8:A2:22:22:7C:46:BF:F0:CE:3A:C7:26	
